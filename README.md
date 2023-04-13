@@ -2,23 +2,16 @@
 
 ## Pra rodar, abrir terminal na pasta e digitar:
 
-./mvnw clean package
+- ./mvnw clean package
+- docker-compose up --build
 
-docker-compose up --build
-
-Se der erro de permission no primeiro comando:
-
-chmod 777 ./mvnw
-
-E tente novamente
+OBS: Se der erro de permission no primeiro comando, rode chmod 777 ./mvnw e tente novamente.
 
 ## Rotas (GET)
 
-http://localhost:8080/cursos/
-
-http://localhost:8080/cursos/{id}
-
-http://localhost:8080/cursos/por-area
+- http://localhost:8080/cursos/
+- http://localhost:8080/cursos/{id}
+- http://localhost:8080/cursos/por-area
 
 ### Reference Documentation
 For further reference, please consider the following sections:
